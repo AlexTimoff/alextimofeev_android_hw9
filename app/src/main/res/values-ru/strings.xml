@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Квиз для студентов</string>
+    <string name="image_quiz">Приветсвие игроков</string>
+    <string name="start_game">НАЧАТЬ ИГРУ</string>
+    <string name="add_birthday">ДЕНЬ РОЖДЕНИЯ</string>
+    <string name="select_language">АНГЛИЙСКИЙ/РУССКИЙ</string>
+    <string name="hello_blank_fragment">Фрагмент приветствия</string>
+    <string name="back">НАЗАД</string>
+    <string name="continue_quiz">ПРОДОЛЖИТЬ</string>
+    <string name="try_again">Попробуйте еще</string>
+    <string name="format_of_date">dd-MM-yyyy</string>
+    <string name="picker_title">Дата вашего рождения </string>
+    <string name="your_result">Ваш результат </string>
+</resources>

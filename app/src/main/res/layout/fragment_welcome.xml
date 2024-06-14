@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragments.WelcomeFragment">
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/welcome_to_quiz"
+        android:layout_width="400dp"
+        android:layout_height="400dp"
+        android:layout_margin="10dp"
+        android:contentDescription="@string/image_quiz"
+        android:src="@drawable/welcome_picture"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.1" />
+
+    <!-- Кнопкам  присваиваем Ripple effect -->
+    <Button
+        android:id="@+id/birthday_button"
+        android:background="@drawable/custom_ripple_effect"
+        android:focusable="true"
+        android:clickable="true"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/welcome_to_quiz"
+        android:textSize="18sp"
+        android:text="@string/add_birthday"/>
+
+    <Button
+        android:id="@+id/select_language"
+        android:background="@drawable/custom_ripple_effect"
+        android:focusable="true"
+        android:clickable="true"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/birthday_button"
+        android:textSize="18sp"
+        android:text="@string/select_language"/>
+
+    <Button
+        android:id="@+id/start_game"
+        android:background="@drawable/custom_ripple_effect"
+        android:focusable="true"
+        android:clickable="true"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/select_language"
+        android:textSize="18sp"
+        android:text="@string/start_game"/>
+
+
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
